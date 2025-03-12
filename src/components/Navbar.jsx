@@ -5,7 +5,7 @@ export default function Navbar() {
 
 
     return <nav>
-        <menu>
+        <menu className="list-none flex center">
             <li><NavLink to="/"> Dashboard </NavLink></li>
             <li><NavLink to="/form"> Form </NavLink></li>
             <li><NavLink to="/pictures"> Pictures </NavLink></li>
