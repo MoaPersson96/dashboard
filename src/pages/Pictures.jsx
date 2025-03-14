@@ -11,11 +11,11 @@ export default function Pictures() {
             <img/>
             <img/>
             <figure>
-                <img src="" alt="" />
+                <img/>
                 <figcaption>Bild</figcaption>
                 <button aria-label="close"> X </button>
             </figure>
-            <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            <img /><img  /><img  /><img  />
         </section>
     </main>
 }

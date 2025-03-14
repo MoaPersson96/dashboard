@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
-    value: "Data"
+    value: "Data",
+    loggedIn: true
 }
 
 const dataSlice = createSlice({
@@ -9,11 +10,13 @@ const dataSlice = createSlice({
     initialState,
     reducers: {
         moreData(state, action) {
-            state = "More data."
-        }
+            state.value = "More data."
+        },
+        login(state) { state.loggedIn = true }, 
+        logout(state) { state.loggedIn = false }
     }
 })
 
-export const {moreData} = dataSlice.actions
+export const {moreData, login, logout} = dataSlice.actions
 
 export default dataSlice.reducer;

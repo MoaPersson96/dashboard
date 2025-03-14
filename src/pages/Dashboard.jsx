@@ -35,22 +35,26 @@ export default function Dashboard() {
         <section className="p-2  md:col-span-7 bg-blue-200">
             <h2>Tabell</h2>
             <table>
-                <tr>
-                    <th>Namn</th>
-                    <th>Poäng</th>
-                </tr>
-                <tr>
-                    <td>Adam</td>
-                    <td>100</td>
-                </tr>
-                <tr>
-                    <td>Eva</td>
-                    <td>102</td>
-                </tr>
-                <tr>
-                    <td>Inger</td>
-                    <td>0</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Namn</th>
+                        <th>Poäng</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Adam</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Eva</td>
+                        <td>102</td>
+                    </tr>
+                    <tr>
+                        <td>Inger</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
         <section className="p-2  md:col-span-2 bg-blue-100">
