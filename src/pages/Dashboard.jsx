@@ -5,7 +5,7 @@ export default function Dashboard() {
 
     return <main className="grid grid-cols-1 md:grid-cols-12 grid-flow-row-dense grid-rows-">
         <h1 className="md:col-span-full relative left-1/12">Dashboard</h1>
-        <section className="p-2 col-start-1 md:col-span-5 bg-blue-100">
+        <section className="p-2 col-start-1 md:col-span-5 bg-blue-200">
             <h2>Stapeldiagram</h2>
             <img/>
         </section>
