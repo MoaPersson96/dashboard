@@ -3,7 +3,7 @@
 export default function Form() {
 
     return (
-    <main className="dark:bg-gray-800 dark:text-white bg-white text-black min-h-screen p-4">
+    <main className="dark:bg-gray-800 dark:text-white bg-white text-black p-4">
         <h1 className="text-2xl mb-4 dark:text-white">Kontaktformulär</h1>
         <form className="flex flex-col items-end gap-4 p-4 bg-gray-100 dark:bg-gray-700 rounded shadow-md">
             <label className="flex flex-col w-full dark:text-white">

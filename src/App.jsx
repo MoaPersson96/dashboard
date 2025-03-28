@@ -17,13 +17,20 @@ function AppContent() {
 
   return (
     <div>
-      <Header />
-      <button onClick={toggleTheme} className="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded">
-        Växla till {theme === 'light' ? 'Mörkt' : 'Ljust'} Tema
+      <a href='#main-content' className='sr-only focus:not-sr-only'>Hoppa till huvudinnehåll</a>
+      <Header role="banner" aria-label='Huvudheader' />
+      <button 
+        onClick={toggleTheme}
+        className="px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded"
+        aria-label={`Växla till ${theme === 'light' ? 'Mörkt' : 'Ljust'} Tema`}
+      >
+        {theme === 'light' ? 'Mörkt' : 'Ljust'} Tema
       </button>
-      <FilterComponent items={items} />
-      <Outlet />
-      <Footer />
+      <main id='main-content'>
+        <FilterComponent items={items} />
+        <Outlet />
+      </main>
+      <Footer role='contentinfo' aria-label='Sidfot' />
     </div>
   );
 }
