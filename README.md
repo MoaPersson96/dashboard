@@ -11,6 +11,9 @@ Det här är en dahboard där användare kan se olika saker.
 
 ## Instruktioner
 
+# Individuell
+Dark mode
+
 TODO
 
 ## Teknikval
