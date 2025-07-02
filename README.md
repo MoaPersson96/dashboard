@@ -23,7 +23,7 @@ cd dashboard
 ```sh
 npm install
 ```
-3. **Starta utvecklingsserver
+3. **Starta utvecklingsserver**
 ```sh
 npm run dev
 ```
