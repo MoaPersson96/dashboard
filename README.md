@@ -1,25 +1,43 @@
 # Dashboard
 
 ## Beskrivning
-Det här är en dahboard där användare kan se olika saker.
-
-## Installation
-
-1. Klona repo
-2. Npm install
-3. Npm run dev
-
-## Instruktioner
-
-# Individuell
-Dark mode
-
-TODO
+Dashboard är en modern webbapplikation byggd med React, Redux Toolkit och Vite. Applikationen erbjuder en översiktssida med diagram, tabeller och bilder, samt stöd för dark mode och tillgänglighetsanpassningar.
 
 ## Teknikval
 
-Vite, React, React router, Redux toolkit, 
+- [React] - Komponentbaserad UI
+- [Redux Toolkit] - global state management
+- [React Router] - Klientbaserad routing
+- [Vite] - Snabb utvecklingsserver och byggverktyg
+- [Tailwind CSS] - Utility-first CSS-ramverk 
 
+
+## Instruktioner
+
+1. **Klona repot**
+```sh
+git clone https://github.com/MoaPersson96/dashboard.git
+cd dashboard
+```
+2. **Installera beroenden**
+```sh
+npm install
+```
+3. **Starta utvecklingsserver
+```sh
+npm run dev
+```
+## Tillgänglighet
+- Navigering via tangentbord (Tab, Enter, piltangeter i menyer).
+- ARIA-attribut används för att förbättra skärmläsarstöd.
+- Kontrast och färger anpassas för dark mode.
+
+# Individuell
+Dark mode - aktiveras via en knapp i gränssnittet och sparas i `localStorage`. Temat påverkar hela applikationen och kan enkelt utökas.
+
+TODO
+
+-------------
 
 Figma
 
