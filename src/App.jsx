@@ -11,8 +11,9 @@ function AppContent() {
   const { theme, toggleTheme } = useTheme();
 
   const items = [
-    { id: 1, name: 'Item 1', isActive: true },
-    { id: 2, name: 'Item 2', isActive: false },
+    { id: 1, name: 'Adam', score: 100 },
+    { id: 2, name: 'Eva', score: 102 },
+    { id: 3, name: 'Inger', score: 0 },
   ];
 
   return (
